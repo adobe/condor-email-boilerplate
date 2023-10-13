@@ -1,0 +1,25 @@
+{
+    "project": "cpss-newsletter",
+    "plugins": [
+        {
+            "id": "copyHtml",
+            "title": "Copy E-Mail",
+            "environments": [
+                "dev",
+                "preview",
+                "live"
+            ],
+            "event": "copyHtml"
+        },
+        {
+            "id": "downloadHtml",
+            "title": "Download E-Mail",
+            "environments": [
+                "dev",
+                "preview",
+                "live"
+            ],
+            "event": "downloadHtml"
+        }
+    ]
+}

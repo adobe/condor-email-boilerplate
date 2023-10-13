@@ -1,0 +1,15 @@
+{
+  "extends": ["stylelint-config-standard", "stylelint-config-prettier"],
+  "rules": {
+    "property-no-unknown": [
+      true,
+      {
+        "ignoreSelectors": [
+          "/mj-.*/"
+        ]
+      }
+    ],
+    "font-family-no-missing-generic-family-keyword": null,
+    "no-empty-source": null
+  }
+}

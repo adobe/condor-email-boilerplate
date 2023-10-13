@@ -1,0 +1,12 @@
+.hlx/*
+coverage/*
+logs/*
+**/node_modules/*
+
+helix-importer-ui
+
+tools/litmus/node_modules
+
+**/.aio
+**/.env
+.DS_Store
