@@ -18,8 +18,8 @@
     "util": "^0.12.5"
   },
   "devDependencies": {
-    "rimraf": "^3.0.2",
+    "rimraf": "^6.0.0",
     "webpack": "^5.75.0",
-    "webpack-cli": "^5.0.1"
+    "webpack-cli": "^7.0.0"
   }
 }
